@@ -6,6 +6,7 @@ import socket
 import os, glob
 
 vpn_list = 'http://www.vpngate.net/api/iphone/'
+vpn_list = 'http://www.vpngate.net/api/iphone/'
 
 # get serer list from list url
 ua = urllib.request.Request(vpn_list)
