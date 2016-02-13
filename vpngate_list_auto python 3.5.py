@@ -5,8 +5,8 @@ import base64
 import socket
 import os, glob
 
-vpn_list = 'http://www.vpngate.net/api/iphone/'
-vpn_list = 'http://www.vpngate.net/api/iphone/'
+vpn_list = 'http://enigmatic-scrubland-4484.herokuapp.com/'
+#vpn_list = 'http://www.vpngate.net/api/iphone/'
 
 # get serer list from list url
 ua = urllib.request.Request(vpn_list)
