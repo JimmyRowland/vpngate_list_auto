@@ -19,7 +19,7 @@ EU_COUNTRIES = ["AL", "AT", "BA", "BE", "BG", "CH", "CY", "DE", "DK", "EE",
 
 def tcp_port_is_open(ip, port) :
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.settimeout(0.2)
+    s.settimeout(1)
     r = s.connect_ex((ip, port))
     print(r)
     if r == 0 :
